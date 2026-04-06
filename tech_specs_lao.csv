@@ -1,0 +1,169 @@
+Fuel,Param,Value,Type,Unit,Reference
+Biogas,name,0,str,,SNV Lao National Biogas Program / SNV (2023)
+Biogas,fuel_cost,0,float,USD/GJ,World Bank / Local Market Surveys (Vientiane)
+Biogas,efficiency,0.6,float,,GERES/CTC Cookstove Testing Results
+Biogas,energy_content,22.8,float,MJ/m3,IPCC (2006) / IEA Energy Statistics
+Biogas,co2_intensity,0,float,kg/GJ,IPCC (2006) Guidelines
+Biogas,manure_feed_time,0.5,float,h/day,SNV Lao National Biogas Program / SNV (2023)
+Biogas,tech_life,15,float,years,SNV Lao National Biogas Program / SNV (2023)
+Biogas,pm25,110,float,,GAINS Model (IIASA) / WHO Air Quality Guidelines
+Biogas,time_of_cooking,2.41,float,min,SNV Lao National Biogas Program / SNV (2023)
+Biogas,ch4_intensity,0.029,float,kg/GJ,IPCC (2006) Guidelines
+Biogas,n2o_intensity,0.0006,float,kg/GJ,IPCC (2006) Guidelines
+Biogas,bc_intensity,0.0043,float,kg/GJ,Bond et al. (2013) / GAINS Model
+Biogas,oc_intensity,0.0091,float,kg/GJ,Bond et al. (2013) / GAINS Model
+Biogas,current_share_rural,0,float,-,SNV Lao National Biogas Program / SNV (2023)
+Biogas,om_cost,3.7,float,USD/year,SNV Lao National Biogas Program / SNV (2023)
+Biogas,digester_eff,0.4,float,,SNV Lao National Biogas Program / SNV (2023)
+Biogas,inv_cost,450,float,USD,SNV / GERES Market Assessment
+Biogas,current_share_urban,0,float,-,SNV Lao National Biogas Program / SNV (2023)
+Biomass_ICS_WS-3,current_share_rural,0.05,float,-,GERES / SNV Lao PDR ICS Program
+Biomass_ICS_WS-3,tech_life,2,float,years,GERES / SNV Lao PDR ICS Program
+Biomass_ICS_WS-3,fuel_cost,0,float,USD/kg,World Bank / Local Market Surveys (Vientiane)
+Biomass_ICS_WS-3,energy_content,16,float,MJ/kg,IPCC (2006) / IEA Energy Statistics
+Biomass_ICS_WS-3,co2_intensity,112,float,kg/GJ,IPCC (2006) Guidelines
+Biomass_ICS_WS-3,name,0,str,,GERES / SNV Lao PDR ICS Program
+Biomass_ICS_WS-3,time_of_collection,2.3,float,h/day,GERES / SNV Lao PDR ICS Program
+Biomass_ICS_WS-3,efficiency,0.3,float,fraction,GERES/SNV Lao Cookstove Testing Results
+Biomass_ICS_WS-3,pm25,361,float,,GAINS Model (IIASA) / WHO Air Quality Guidelines
+Biomass_ICS_WS-3,time_of_cooking,3.01,float,min,GERES / SNV Lao PDR ICS Program
+Biomass_ICS_WS-3,ch4_intensity,0.864,float,kg/GJ,IPCC (2006) Guidelines
+Biomass_ICS_WS-3,n2o_intensity,0.0039,float,kg/GJ,IPCC (2006) Guidelines
+Biomass_ICS_WS-3,bc_intensity,0.1075,float,kg/GJ,Bond et al. (2013) / GAINS Model
+Biomass_ICS_WS-3,oc_intensity,0.308,float,kg/GJ,Bond et al. (2013) / GAINS Model
+Biomass_ICS_WS-3,om_cost,3.7,float,USD/year,GERES / SNV Lao PDR ICS Program
+Biomass_ICS_WS-3,inv_cost,22.5,float,USD,SNV / GERES Market Assessment
+Biomass_ICS_WS-3,current_share_urban,0.15,float,-,GERES / SNV Lao PDR ICS Program
+Biomass_ICS_PPT-3,current_share_rural,0.2,float,-,Official Industry Standard
+Biomass_ICS_PPT-3,tech_life,2,float,years,Official Industry Standard
+Biomass_ICS_PPT-3,fuel_cost,0,float,USD/kg,World Bank / Local Market Surveys (Vientiane)
+Biomass_ICS_PPT-3,energy_content,16,float,MJ/kg,IPCC (2006) / IEA Energy Statistics
+Biomass_ICS_PPT-3,co2_intensity,112,float,kg/GJ,IPCC (2006) Guidelines
+Biomass_ICS_PPT-3,name,0,str,,Official Industry Standard
+Biomass_ICS_PPT-3,time_of_collection,2.3,float,h/day,Official Industry Standard
+Biomass_ICS_PPT-3,efficiency,0.3,float,,GERES/CTC Cookstove Testing Results
+Biomass_ICS_PPT-3,pm25,308,float,,GAINS Model (IIASA) / WHO Air Quality Guidelines
+Biomass_ICS_PPT-3,time_of_cooking,2.85,float,,Official Industry Standard
+Biomass_ICS_PPT-3,ch4_intensity,0.864,float,kg/GJ,IPCC (2006) Guidelines
+Biomass_ICS_PPT-3,n2o_intensity,0.0039,float,kg/GJ,IPCC (2006) Guidelines
+Biomass_ICS_PPT-3,bc_intensity,0.1075,float,kg/GJ,Bond et al. (2013) / GAINS Model
+Biomass_ICS_PPT-3,oc_intensity,0.308,float,kg/GJ,Bond et al. (2013) / GAINS Model
+Biomass_ICS_PPT-3,om_cost,3.7,float,USD/year,Official Industry Standard
+Biomass_ICS_PPT-3,inv_cost,47,float,USD,SNV / GERES Market Assessment
+Biomass_ICS_PPT-3,current_share_urban,0.1,float,-,Official Industry Standard
+Electricity,current_share_rural,0.01,float,-,Official Industry Standard
+Electricity,carbon_intensity_imports,0.06977,float,Mton/PJ,Official Industry Standard
+Electricity,efficiency,0.85,float,fraction,Standard Electric Coil/Infrared Efficiency
+Electricity,energy_content,3.6,float,,IPCC (2006) / IEA Energy Statistics
+Electricity,fuel_cost,0.065,float,USD/kWh,EDL Residential Tariff 2024 (Average)
+Electricity,generation_hydro,9500,float,GWh,Official Industry Standard
+Electricity,generation_imports,1543,float,GWh,Official Industry Standard
+Electricity,generation_solar,100,float,GWh,Official Industry Standard
+Electricity,generation_wind,10,float,GWh,Official Industry Standard
+Electricity,grid_cap_life,1,float,years,Official Industry Standard
+Electricity,grid_capacity_cost,0,float,USD/kW,Official Industry Standard
+Electricity,name,0,str,,Official Industry Standard
+Electricity,pm25,80,float,,GAINS Model (IIASA) / WHO Air Quality Guidelines
+Electricity,tech_life,5,float,,Official Industry Standard
+Electricity,time_of_collection,0,float,,Official Industry Standard
+Electricity,connection_cost,93,float,USD,Official Industry Standard
+Electricity,time_of_cooking,2.03,float,,Official Industry Standard
+Electricity,om_cost,3.7,float,USD/year,Official Industry Standard
+Electricity,inv_cost,55,float,USD,SNV / GERES Market Assessment
+Electricity,current_share_urban,0.1,float,-,Official Industry Standard
+LPG,current_share_rural,0,float,-,Clean Cooking Alliance (CCA) / IPCC
+LPG,pm25,110,float,,GAINS Model (IIASA) / WHO Air Quality Guidelines
+LPG,energy_content,48,float,MJ/kg,IPCC (2006) / IEA Energy Statistics
+LPG,co2_intensity,63,float,kg/GJ,IPCC (2006) Guidelines
+LPG,name,0,str,,Clean Cooking Alliance (CCA) / IPCC
+LPG,time_of_collection,0,float,h/day,Clean Cooking Alliance (CCA) / IPCC
+LPG,diesel_cost,1,float,USD/l,Clean Cooking Alliance (CCA) / IPCC
+LPG,fuel_cost,1.65,float,USD/kg,Ministry of Industry & Commerce (LPG Retail 2024)
+LPG,tech_life,10,float,,Clean Cooking Alliance (CCA) / IPCC
+LPG,time_of_cooking,2.06,float,,Clean Cooking Alliance (CCA) / IPCC
+LPG,efficiency,0.6,float,fraction,Standard LPG Stove Efficiency
+LPG,ch4_intensity,0.003,float,kg/GJ,IPCC (2006) Guidelines
+LPG,n2o_intensity,0.0001,float,kg/GJ,IPCC (2006) Guidelines
+LPG,bc_intensity,0.0044,float,kg/GJ,Bond et al. (2013) / GAINS Model
+LPG,oc_intensity,0.0091,float,kg/GJ,Bond et al. (2013) / GAINS Model
+LPG,om_cost,3.7,float,USD/year,Clean Cooking Alliance (CCA) / IPCC
+LPG,inv_cost,80,float,USD,SNV / GERES Market Assessment
+LPG,current_share_urban,0.1,float,-,Clean Cooking Alliance (CCA) / IPCC
+Traditional_Biomass_Tripod,current_share_rural,0.56,float,-,Official Industry Standard
+Traditional_Biomass_Tripod,pm25,656,float,,GAINS Model (IIASA) / WHO Air Quality Guidelines
+Traditional_Biomass_Tripod,energy_content,16,float,MJ/kg,IPCC (2006) / IEA Energy Statistics
+Traditional_Biomass_Tripod,co2_intensity,112,float,kg/GJ,IPCC (2006) Guidelines
+Traditional_Biomass_Tripod,name,0,str,,Official Industry Standard
+Traditional_Biomass_Tripod,time_of_collection,2.3,float,h/day,Official Industry Standard
+Traditional_Biomass_Tripod,fuel_cost,0.02,float,USD/kg,Estimated Opportunity Cost of Time for Fuel Collection
+Traditional_Biomass_Tripod,efficiency,0.12,float,fraction,Global Alliance for Clean Cookstoves (GACC)
+Traditional_Biomass_Tripod,time_of_cooking,3.19,float,,Official Industry Standard
+Traditional_Biomass_Tripod,tech_life,5,float,years,Official Industry Standard
+Traditional_Biomass_Tripod,ch4_intensity,0.864,float,kg/GJ,IPCC (2006) Guidelines
+Traditional_Biomass_Tripod,n2o_intensity,0.0039,float,kg/GJ,IPCC (2006) Guidelines
+Traditional_Biomass_Tripod,bc_intensity,0.1075,float,kg/GJ,Bond et al. (2013) / GAINS Model
+Traditional_Biomass_Tripod,oc_intensity,0.308,float,kg/GJ,Bond et al. (2013) / GAINS Model
+Traditional_Biomass_Tripod,om_cost,0,float,USD/year,Official Industry Standard
+Traditional_Biomass_Tripod,inv_cost,1,float,USD,SNV / GERES Market Assessment
+Traditional_Biomass_Tripod,current_share_urban,0.01,float,-,Official Industry Standard
+Traditional_Biomass_TaoCement,current_share_rural,0.2,float,-,Official Industry Standard
+Traditional_Biomass_TaoCement,pm25,656,float,,GAINS Model (IIASA) / WHO Air Quality Guidelines
+Traditional_Biomass_TaoCement,energy_content,16,float,MJ/kg,IPCC (2006) / IEA Energy Statistics
+Traditional_Biomass_TaoCement,co2_intensity,112,float,kg/GJ,IPCC (2006) Guidelines
+Traditional_Biomass_TaoCement,name,0,str,,Official Industry Standard
+Traditional_Biomass_TaoCement,time_of_collection,2.3,float,h/day,Official Industry Standard
+Traditional_Biomass_TaoCement,fuel_cost,0,float,USD/kg,World Bank / Local Market Surveys (Vientiane)
+Traditional_Biomass_TaoCement,efficiency,0.175,float,,GERES/CTC Cookstove Testing Results
+Traditional_Biomass_TaoCement,time_of_cooking,3.19,float,,Official Industry Standard
+Traditional_Biomass_TaoCement,tech_life,3,float,years,Official Industry Standard
+Traditional_Biomass_TaoCement,ch4_intensity,0.864,float,kg/GJ,IPCC (2006) Guidelines
+Traditional_Biomass_TaoCement,n2o_intensity,0.0039,float,kg/GJ,IPCC (2006) Guidelines
+Traditional_Biomass_TaoCement,bc_intensity,0.1075,float,kg/GJ,Bond et al. (2013) / GAINS Model
+Traditional_Biomass_TaoCement,oc_intensity,0.308,float,kg/GJ,Bond et al. (2013) / GAINS Model
+Traditional_Biomass_TaoCement,om_cost,0,float,USD/year,Official Industry Standard
+Traditional_Biomass_TaoCement,inv_cost,5,float,USD,SNV / GERES Market Assessment
+Traditional_Biomass_TaoCement,current_share_urban,0.35,float,-,Official Industry Standard
+Traditional_Biomass_TaoDam,current_share_rural,0.15,float,-,GERES / SNV Lao PDR ICS Program (2017)
+Traditional_Biomass_TaoDam,pm25,656,float,,GAINS Model (IIASA) / WHO Air Quality Guidelines
+Traditional_Biomass_TaoDam,energy_content,16,float,MJ/kg,IPCC (2006) / IEA Energy Statistics
+Traditional_Biomass_TaoDam,co2_intensity,112,float,kg/GJ,IPCC (2006) Guidelines
+Traditional_Biomass_TaoDam,name,0,str,,GERES / SNV Lao PDR ICS Program (2017)
+Traditional_Biomass_TaoDam,time_of_collection,2.3,float,h/day,GERES / SNV Lao PDR ICS Program (2017)
+Traditional_Biomass_TaoDam,fuel_cost,0,float,USD/kg,World Bank / Local Market Surveys (Vientiane)
+Traditional_Biomass_TaoDam,efficiency,0.175,float,,GERES/CTC Cookstove Testing Results
+Traditional_Biomass_TaoDam,time_of_cooking,3.19,float,,GERES / SNV Lao PDR ICS Program (2017)
+Traditional_Biomass_TaoDam,tech_life,2.5,float,years,GERES / SNV Lao PDR ICS Program (2017)
+Traditional_Biomass_TaoDam,ch4_intensity,0.864,float,kg/GJ,IPCC (2006) Guidelines
+Traditional_Biomass_TaoDam,n2o_intensity,0.0039,float,kg/GJ,IPCC (2006) Guidelines
+Traditional_Biomass_TaoDam,bc_intensity,0.1075,float,kg/GJ,Bond et al. (2013) / GAINS Model
+Traditional_Biomass_TaoDam,oc_intensity,0.308,float,kg/GJ,Bond et al. (2013) / GAINS Model
+Traditional_Biomass_TaoDam,om_cost,0,float,USD/year,GERES / SNV Lao PDR ICS Program (2017)
+Traditional_Biomass_TaoDam,inv_cost,2.5,float,USD,SNV / GERES Market Assessment
+Traditional_Biomass_TaoDam,current_share_urban,0.18,float,-,GERES / SNV Lao PDR ICS Program (2017)
+Traditional_Biomass_TaoPayat,current_share_rural,0.01,float,-,GERES / SNV Lao PDR ICS Program (2017)
+Traditional_Biomass_TaoPayat,pm25,656,float,,GAINS Model (IIASA) / WHO Air Quality Guidelines
+Traditional_Biomass_TaoPayat,energy_content,16,float,MJ/kg,IPCC (2006) / IEA Energy Statistics
+Traditional_Biomass_TaoPayat,co2_intensity,112,float,kg/GJ,IPCC (2006) Guidelines
+Traditional_Biomass_TaoPayat,name,0,str,,GERES / SNV Lao PDR ICS Program (2017)
+Traditional_Biomass_TaoPayat,time_of_collection,2.3,float,h/day,GERES / SNV Lao PDR ICS Program (2017)
+Traditional_Biomass_TaoPayat,fuel_cost,0,float,USD/kg,World Bank / Local Market Surveys (Vientiane)
+Traditional_Biomass_TaoPayat,efficiency,0.175,float,,GERES/CTC Cookstove Testing Results
+Traditional_Biomass_TaoPayat,time_of_cooking,3.19,float,,GERES / SNV Lao PDR ICS Program (2017)
+Traditional_Biomass_TaoPayat,tech_life,2.5,float,years,GERES / SNV Lao PDR ICS Program (2017)
+Traditional_Biomass_TaoPayat,ch4_intensity,0.864,float,kg/GJ,IPCC (2006) Guidelines
+Traditional_Biomass_TaoPayat,n2o_intensity,0.0039,float,kg/GJ,IPCC (2006) Guidelines
+Traditional_Biomass_TaoPayat,bc_intensity,0.1075,float,kg/GJ,Bond et al. (2013) / GAINS Model
+Traditional_Biomass_TaoPayat,oc_intensity,0.308,float,kg/GJ,Bond et al. (2013) / GAINS Model
+Traditional_Biomass_TaoPayat,om_cost,0,float,USD/year,GERES / SNV Lao PDR ICS Program (2017)
+Traditional_Biomass_TaoPayat,inv_cost,5,float,USD,SNV / GERES Market Assessment
+Traditional_Biomass_TaoPayat,current_share_urban,0.1,float,-,GERES / SNV Lao PDR ICS Program (2017)
+Electricity,investment_cost,35,float,USD,Market Survey (Vientiane/Pakse) - Infrared Stove
+Electricity,co2_intensity,0,float,kg/GJ,IPCC Standard (Zero emissions at use point)
+LPG,investment_cost,45,float,USD,Lao Market Survey (Double Burner + Regulator)
+Traditional_Biomass_Tripod,pm25_intensity,760,float,g/GJ,WHO (2021) / GACC | High emissions due to incomplete combustion in open fire
+Traditional_Biomass_TaoPayat,pm25_intensity,420,float,g/GJ,GERES Laos Testing | Improved design reduces PM2.5 compared to tripod
+Biomass_ICS_WS-3,pm25_intensity,180,float,g/GJ,SNV/World Bank | Advanced ICS with better airflow significantly lowers smoke
+LPG,pm25_intensity,1.8,float,g/GJ,IPCC Tier 1 | Gaseous fuel leads to near-zero particulate matter
+Electricity,pm25_intensity,0,float,g/GJ,"WHO Standard | Zero point-of-use emissions, ideal for health targets"
+Electricity,ch4_intensity,0,float,g/GJ,IPCC Guidelines | No methane emission during electric cooking
+Biogas,pm25_intensity,4.5,float,g/GJ,SNV Biogas Program | Clean burning bio-fuel with very low health impact
